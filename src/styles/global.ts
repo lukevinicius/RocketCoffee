@@ -2,25 +2,18 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --primary:      #00A1FE;
-    --primaryDark:  #283CA5;
-    --secundary:    #212121;
-
-    --danger:       #e52e4d;
-    --warning:      #FFB300;
-    --success:      #33CC95;
-
-    --title:        #363f5f;
-    --text:         #969cb3;
-
-    --shape:        #FFFFFF;
-    --background:   #f0f2f5;
+    --backgrond: #000;
+    --text-color: #FFF;
+    --button: #8257E5;
+    --border: #29292E;
+    --border-menu-mobile: #A8A8B3;
+    --text-color-menu-mobile: #E1E1E6;
   }
   * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Manrope', sans-serif;
   }
   html {
     @media (max-width: 1080px) {
