@@ -14,8 +14,16 @@ export const Content = styled.div`
   }
 `;
 
-export const Span = styled.span`
+export const Span = styled.a`
+  text-decoration: none;
+  color: var(--text-color);
   margin: 0 1rem;
+  cursor: pointer;
+
+  &:hover {
+    color: var(--text-color);
+    filter: brightness(0.9);
+  }
 `;
 export const Button = styled.button`
   background: none;
