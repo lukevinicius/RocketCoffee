@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
   :root {
-    --backgrond: #000;
+    --background: #000;
     --text-color: #FFF;
     --button: #8257E5;
     --border: #29292E;
@@ -24,7 +24,7 @@ export const GlobalStyle = createGlobalStyle`
     }
   }
   body {
-    background-color: var(--background) ;
+    background-color: var(--background);
     -webkit-font-smoothing: antialiased;
   }
   border-style, input, textarea, button {

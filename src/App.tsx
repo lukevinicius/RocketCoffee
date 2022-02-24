@@ -1,10 +1,15 @@
+import { Header } from './components/Header';
 import { GlobalStyle } from './styles/global';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container } from './styles';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <h1>My App</h1>
+      <Container>
+        <Header />
+      </Container>
     </>
   );
 }
